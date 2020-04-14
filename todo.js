@@ -68,7 +68,7 @@ var addTask = function () {
         tasks.appendChild(listItem);
         taskInput.value = "";
     } else {
-        alert("empty task ... phase inter data");
+        alert("can not enter empty task ... please enter data");
     }
 };
 
