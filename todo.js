@@ -93,5 +93,5 @@ var changeColor = function (elemnt) {
     var listItem = btn.parentNode;
 
     listItem.style.color = "green";
-    span.style.opacity = 0;
+    span.style.display = 'none';
 };
