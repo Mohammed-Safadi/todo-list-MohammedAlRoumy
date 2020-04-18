@@ -50,8 +50,8 @@ var createNewTaskElement = function (taskString) {
     btn.className = "btn";
 
     span.appendChild(doneButton);
+    span.appendChild(dash);
     btn.appendChild(span);
-    btn.appendChild(dash);
     btn.appendChild(deleteButton);
 
     listItem.appendChild(label);
