@@ -5,7 +5,7 @@
 	// connect to database
 	$db = mysqli_connect("localhost", "root", "", "todo");
 
-	// insert a quote if submit button is clicked
+	// insert a task if submit button is clicked
 	if (isset($_POST['submit'])) {
 
 		if (empty($_POST['task'])) {
